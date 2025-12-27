@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Sathya Mobile Shop - Expert Mobile Repair & Care</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-container">
+                <!-- Brand Icon with text -->
+                <div class="brand-icon">
+                    <div class="brand-name">SRI SATHYA</div>
+                    <div class="brand-tagline">Repair Protect Style</div>
+                </div>
+                <div class="logo-text">
+                    <div class="logo">Sri Sathya <span>Mobile Shop</span></div>
+                    <div class="logo-tagline">Repair • Protect • Style</div>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><button class="header-button mobile-header-btn" id="mobileHeaderButton">Book Now</button></li>
+            </ul>
+            <button class="header-button desktop-header-btn" id="desktopHeaderButton">Book Now</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="floating-icons">
+            <div class="floating-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="floating-icon"><i class="fas fa-headphones"></i></div>
+            <div class="floating-icon"><i class="fas fa-bolt"></i></div>
+            <div class="floating-icon"><i class="fas fa-shield-alt"></i></div>
+        </div>
+        <div class="container hero-content">
+            <div class="tagline">
+                <i class="fas fa-check-circle"></i>
+                <span>Premium Service Guaranteed</span>
+            </div>
+            <h1>Expert Mobile <span>Repair & Care</span></h1>
+            <p>Professional device repair services and premium accessories with 12-month warranty. Your trusted partner for all mobile solutions.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Get Your Device Fixed</a>
+                <a href="#accessories" class="cta-button secondary">Shop Accessories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="5000">0</div>
+                    <div class="stat-label">Devices Repaired</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="30">0</div>
+                    <div class="stat-label">Average Repair Time (min)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Sri Sathya Mobiles</h2>
+                <p>Your trusted partner for mobile solutions since 2010</p>
+            </div>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sri Sathya Mobiles Store">
+                </div>
+                <div class="about-content">
+                    <h3>Welcome to Sri Sathya Mobile Repair & Store</h3>
+                    <p>Your one-stop solution for all mobile device needs. With years of experience, our certified technicians are dedicated to providing fast, reliable, and affordable repair services for smartphones, tablets, and other gadgets.</p>
+                    <p>We pride ourselves on using only genuine parts and offering a transparent repair process. Whether it's a cracked screen, battery issue, or water damage, we've got you covered.</p>
+                    <p>At Sri Sathya Mobiles, we combine technical expertise with customer-centric service. Our goal is not just to fix your device but to ensure you have a seamless and satisfactory experience from start to finish.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Certified Technicians</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Same-Day Service</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>12-Month Warranty</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-rupee-sign"></i>
+                            <span>Transparent Pricing</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="cta-button">Visit Us Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" id="why-choose-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Sri Sathya Mobiles?</h2>
+                <p>Discover what makes us the preferred choice for mobile repairs</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Expert Technicians</h3>
+                    <p>Our team consists of certified professionals with extensive training and years of hands-on experience in mobile device repair.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Genuine Parts</h3>
+                    <p>We use only OEM-quality and genuine replacement parts to ensure longevity and optimal performance of your device.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Fast Service</h3>
+                    <p>Most repairs completed within 30-45 minutes. We understand you need your device back quickly.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>12-Month Warranty</h3>
+                    <p>All our repairs come with a comprehensive 12-month warranty for your peace of mind.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Competitive and transparent pricing with no hidden charges. We provide quotes before starting any work.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Customer Support</h3>
+                    <p>Dedicated customer support team available to answer your queries and provide after-service assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive repair solutions with genuine parts and expert technicians. We fix it right the first time.</p>
+            </div>
+            <div class="services-container">
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Screen Replacement</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹1800</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 30-45 min</div>
+                        <p class="service-description">Crystal clear display replacement with OEM-quality screens and precision installation.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Battery Replacement</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹200</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 20-30 min</div>
+                        <p class="service-description">Long-lasting battery replacement with 12-month warranty and optimized performance.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Water Damage Repair</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹1500</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 2-3 hours</div>
+                        <p class="service-description">Emergency water damage treatment with advanced drying and component restoration.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Camera Repair</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹800</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 45-60 min</div>
+                        <p class="service-description">Professional camera lens and sensor repair for crystal clear photography.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Charging Port Repair</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹300</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 25-40 min</div>
+                        <p class="service-description">Fix charging issues with genuine port replacement and thorough testing.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Software & Virus Removal</h3>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-price">From ₹300</div>
+                        <div class="service-time"><i class="far fa-clock"></i> 15-30 min</div>
+                        <p class="service-description">Complete software troubleshooting, virus removal, and system optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="accessories" id="accessories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Premium Collection</h2>
+                <p>Essential mobile accessories curated to enhance and protect your mobile experience.</p>
+            </div>
+            <div class="accessories-container">
+                <div class="accessory-card">
+                    <div class="accessory-badge">BEST SELLER</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">PROTECTION</span>
+                        <h3 class="accessory-title">Tempered Glass Protector</h3>
+                        <p>9H hardness, bubble-free application with crystal clarity.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹99</span>
+                            <span class="original-price">₹199</span>
+                        </div>
+                        <div class="stock-status in-stock">In Stock</div>
+                    </div>
+                </div>
+                <div class="accessory-card">
+                    <div class="accessory-badge">NEW</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">CHARGING</span>
+                        <h3 class="accessory-title">Fast Wireless Charger</h3>
+                        <p>15W fast wireless charging pad with LED indicators.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹299</span>
+                        </div>
+                        <div class="stock-status in-stock">In Stock</div>
+                    </div>
+                </div>
+                <div class="accessory-card">
+                    <div class="accessory-badge">POPULAR</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">AUDIO</span>
+                        <h3 class="accessory-title">Wireless Earbuds Pro</h3>
+                        <p>Noise cancellation with 24hr battery life and premium sound.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹499</span>
+                            <span class="original-price">₹1,999</span>
+                        </div>
+                        <div class="stock-status low-stock">Low Stock</div>
+                    </div>
+                </div>
+                <div class="accessory-card">
+                    <div class="accessory-badge">PROTECTION</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">PROTECTION</span>
+                        <h3 class="accessory-title">Mobile Phone Case</h3>
+                        <p>Premium shockproof case with raised edges for screen protection.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹199</span>
+                        </div>
+                        <div class="stock-status in-stock">In Stock</div>
+                    </div>
+                </div>
+                <div class="accessory-card">
+                    <div class="accessory-badge">POWER</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">POWER</span>
+                        <h3 class="accessory-title">Power Bank 20000mAh</h3>
+                        <p>Fast charging power bank with dual USB ports and LED display.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹1,599</span>
+                        </div>
+                        <div class="stock-status in-stock">In Stock</div>
+                    </div>
+                </div>
+                <div class="accessory-card">
+                    <div class="accessory-badge">CAMERA</div>
+                    <div class="accessory-content">
+                        <span class="accessory-category">CAMERA</span>
+                        <h3 class="accessory-title">Phone Camera Lens Kit</h3>
+                        <p>Professional lens kit with wide angle, macro, and fisheye lenses.</p>
+                        <div class="accessory-price">
+                            <span class="current-price">₹1,500</span>
+                            <span class="original-price">₹2,499</span>
+                        </div>
+                        <div class="stock-status in-stock">In Stock</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Have questions? We're here to help! Reach out to us through any of these channels.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>+91 8098260202</p>
+                            <p>+91 8778979710</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <p>info@srisathyamobiles.com</p>
+                            <p>support@srisathyamobiles.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Saturday</p>
+                            <p>9:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Address</h4>
+                            <p>Shop No. 208, Main Street, Meenambigai Nagar Jahindpuram, Madurai, TamilNadu - 625011</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Ready to Repair Your Device?</h3>
+                    <p>Visit us today and experience professional service with guaranteed results.</p>
+                    <form id="repairForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="device">Device Type</label>
+                            <input type="text" id="device" class="form-control" placeholder="e.g., iPhone 12, Samsung Galaxy S21" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="issue">Repair Issue</label>
+                            <select id="issue" class="form-control" required>
+                                <option value="">Select an issue</option>
+                                <option value="screen">Screen Replacement</option>
+                                <option value="battery">Battery Replacement</option>
+                                <option value="water">Water Damage Repair</option>
+                                <option value="camera">Camera Repair</option>
+                                <option value="charging">Charging Port Repair</option>
+                                <option value="software">Software & Virus Removal</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="cta-button" style="width: 100%;">Schedule Repair</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section with Google Maps -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Location</h2>
+                <p>Visit us at our convenient location for expert consultation and service</p>
+            </div>
+            <div class="location-container">
+                <div class="location-info">
+                    <h3>Find Us Here</h3>
+                    <div class="address-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Sri Sathya Mobiles</h4>
+                            <p>Shop No. 208, Main Street</p>
+                            <p>Meenambigai Nagar, Jahindpuram</p>
+                            <p>Madurai, Tamil Nadu - 625011</p>
+                        </div>
+                    </div>
+                    <div class="location-details">
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 8098260202</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="far fa-clock"></i>
+                            <span>Mon-Sat: 9:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-car"></i>
+                            <span>Free Parking Available</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-wheelchair"></i>
+                            <span>Wheelchair Accessible</span>
+                        </div>
+                    </div>
+                    <a href="https://maps.google.com/?q=SRI+SATHYA+MOBILE+SHOP+Madurai" target="_blank" class="cta-button secondary">
+                    <i class="fas fa-directions"></i> Get Directions
+                    </a>
+                </div>
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <h3>Google Maps Location</h3>
+                        <p>Shop No. 208, Main Street, Meenambigai Nagar, Jahindpuram, Madurai</p>
+                        <div class="map-frame">
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9303.572797650455!2d78.10569999612102!3d9.898918359667674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfb9a1c16699%3A0x862b778bdace1ac5!2sSRI%20SATHYA%20MOBILE%20SHOP!5e0!3m2!1sen!2sin!4v1766006448566!5m2!1sen!2sin"
+                                 height="100%"
+                                 width="100%" 
+                                 style="border:0; border-radius: var(--radius-lg);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <p class="map-instruction">Click "Get Directions" to navigate to our store</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>Professional mobile repair services with premium accessories and guaranteed satisfaction.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Screen Repair</a></li>
+                        <li><a href="#services">Battery Replacement</a></li>
+                        <li><a href="#services">Water Damage</a></li>
+                        <li><a href="#services">Camera Repair</a></li>
+                        <li><a href="#services">Charging Port Repair</a></li>
+                        <li><a href="#services">Software Repair</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#why-choose-us">Why Choose Us</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#location">Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Sri Sathya Mobiles. All rights reserved. | Phone: +91 8098260202 | Email: info@srisathyamobiles.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
